@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Estetoscopio Digital</string>
+    <string name="app_running">Estetoscopio Digital</string>
+    <string name="guia">Guía de uso</string>
+    <string name="tipo_guia">Aplicación Cliente</string>
+    <string name="contenido_intro">La aplicación Cliente del proyecto Estetoscopio Digital permite al usuario recibir y manipular la información proveniente de la aplicación "Server", para eso cuenta con dos pestañas: \n</string>
+    <string name="pestana1">Pestaña Recepción</string>
+    <string name="pestana1_content">Esta pestaña cuenta con las siguientes funciones: \n\n1. Permite recibir y reproducir la información proveniente del Server en tiempo real con tan solo seleccionar la pestaña. \n2. Permite guardar la información presionando el único boton que esta pestaña contiene. \n</string>
+    <string name="pestana2">Pestaña Audios</string>
+    <string name="pestana2_content">Esta pestaña cuenta con las siguientes funciones: \n\n1. Listar todos los audios guardados en la pestaña Recepción. \n2. Reproducir cada audio que este en la lista. \n3. Editar el nombre del archivo presionando dos segundos sobre el nombre del audio que desee modificar.</string>
+    
+     <string name="tipo_guia_server">Aplicación Server</string>
+     <string name="contenido_intro_server">La aplicación Server del proyecto Estetoscopio Digital permite al usuario transmitir los sonidos provenientes de la campana del estetoscopio a todos los clientes conectados a la misma red, para eso cuenta con una pestaña: \n</string>
+    <string name="pestana1_server">Pestaña Transmisión</string>
+     <string name="pestana1_content_server">Esta pestaña cuenta con las siguientes funciones: \n\n1. Permite transmitir los sonidos digitalizados provenientes del cuerpo humano en tiempo real a todos los clientes con tan solo seleccionar la pestaña. \n2. Permite seleccionar tipos de filtros digitales ya sea cardiacos, pulmonares o gástricos dependiendo sea el caso para poder así acentuar dichos sonidos y eliminar el ruido del ambiente. \n3. Permite manipular la intensidad de los filtros mediante una SeekBar teniendo en cuenta que si la barra se desliza hacia la derrecha se filtrará menos caso contrario se filtrará más. </string>
+   
+    
+    <string name="settings_name">Estetoscopio Digital Settings</string>
+    <string name="settings_label">Configuración</string>
+    
+    <string name="settings_comm_name">Communication settings</string>
+    <string name="settings_comm_label">IP y Puerto</string>
+    
+    	<string name="set_cast_and_port">Puerto</string>
+    
+   			<string name="cast_type_title">Cast type</string>
+			<string name="cast_type_summary">Choose how many devices will receive the audio data.</string>
+		
+    		<string name="port_title">Puerto</string>
+    		<string name="port_summary">Pregunto por el puerto correspondiente en el server e ingreselo</string>
+    		<string name="port_default">50000</string>
+		
+		
+		<string name="set_ip_addr">IP addresses</string>		
+		
+			<string name="broadcast_addr_title">Ip address</string>
+    		<string name="broadcast_addr_summary">Ip address designada a su equipo</string>
+    		<string name="broadcast_addr_default">255.255.255.255</string>		  
+        	    
+    		<string name="multicast_addr_title">Multicast address</string>
+    		<string name="multicast_addr_summary">Audio data will be received only by devices registered on the given address and are on the same network.</string>
+    		<string name="multicast_addr_default">230.0.0.1</string>
+    	
+    		<string name="unicast_addr_title">Unicast address</string>
+    		<string name="unicast_addr_summary">Audio data will be received only by one device, designated by the given address.</string>
+    		<string name="unicast_addr_default">192.168.0.1</string>    		
+    		    	
+    <string name="settings_audio_name">Audio settings</string>
+    <string name="settings_audio_label">Puerto</string>
+    	
+		<string name="use_speex_title">Use codec</string>
+		<string name="use_speex_on">Turn off</string>		
+		<string name="use_speex_off">Turn on</string>    	    	
+    		
+    	<string name="speex_quality_title">Codec bit rate</string>    
+    	<string name="speex_quality_summary"></string>
+    	
+		<string name="echo_title">Echo</string>
+		<string name="echo_on">Turn off</string>		
+		<string name="echo_off">Turn on</string>
+		
+    <string name="settings_reset_all_name">Reset All</string>
+    <string name="settings_reset_all_label">Reset All</string>
+    	<string name="setting_reset_all_confirm">All settings were restored to their default values</string>
+    	
+    <string name="quit_label">Quit</string>			
+	    		
+</resources>

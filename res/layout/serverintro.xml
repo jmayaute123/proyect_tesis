@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#510B0B">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dip">
+
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:typeface="monospace"
+            android:text="@string/guia" />
+    
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_guia_server"
+            style="@style/help_title" />
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/contenido_intro_server"
+            style="@style/help_content" />
+    
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/pestana1_server"
+            style="@style/help_title" />
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/pestana1_content_server"
+            style="@style/help_content" />
+        
+        
+
+
+    </LinearLayout>
+        
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2009-2010 Aubort Jean-Baptiste (Rorist)
+ Licensed under GNU's GPL 2, see README
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#510B0B">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dip">
+
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:typeface="monospace"
+            android:text="@string/guia" />
+    
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_guia"
+            style="@style/help_title" />
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/contenido_intro"
+            style="@style/help_content" />
+    
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/pestana1"
+            style="@style/help_title" />
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/pestana1_content"
+            style="@style/help_content" />
+        
+          <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/pestana2"
+            style="@style/help_title" />
+    
+        <TextView
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/pestana2_content"
+            style="@style/help_content" />
+
+
+    </LinearLayout>
+        
+</ScrollView>
